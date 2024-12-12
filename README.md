@@ -1,8 +1,5 @@
 # WEBSITE MULTIPLAYER
 
-## BUILD:
-#### `docker build -t website_multi .`
-
 ## DOCKER COMPOSE:
 #### `docker compose up`
 
