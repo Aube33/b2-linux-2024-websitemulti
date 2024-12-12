@@ -1,0 +1,9 @@
+services:
+  app_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    environment:
+      SERVER_PORT: 8888
